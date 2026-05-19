@@ -15,3 +15,11 @@ class baseClass1 {
         }
 };
 
+class derivedClass : public baseClass1 {
+  public:
+        void perkenalan() {
+          cout << "halo saya function dari derived class";
+        }
+};
+
+
